@@ -6,10 +6,10 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @EnableTransactionManagement
 @SpringBootApplication
-public class BuySellApplication {
+public class SellAdsApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BuySellApplication.class, args);
+		SpringApplication.run(SellAdsApplication.class, args);
 	}
 
 }
